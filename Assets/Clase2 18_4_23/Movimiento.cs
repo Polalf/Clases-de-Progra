@@ -13,21 +13,21 @@ public class Movimiento : MonoBehaviour
     {
         if(Input.GetKey(KeyCode.UpArrow))
         {
-            transform.position += (Vector3.up * speed).normalized * Time.deltaTime;
+            transform.position += Vector3.up.normalized * speed * Time.deltaTime;
         }
         if (Input.GetKey(KeyCode.DownArrow)) 
         {
-            transform.position += (Vector3.up * -speed).normalized * Time.deltaTime;
+            transform.position += Vector3.up.normalized * -speed * Time.deltaTime;
         }
         if (Input.GetKey(KeyCode.RightArrow))
         {
-            transform.position += (Vector3.right * speed).normalized * Time.deltaTime;
+            transform.position += Vector3.right.normalized * speed * Time.deltaTime;
         }
         if (Input.GetKey(KeyCode.LeftArrow))
         {
-            transform.position += (Vector3.right * -speed).normalized * Time.deltaTime;
+            transform.position += Vector3.right.normalized * -speed * Time.deltaTime;
         }
 
-
+        
     }
 }
