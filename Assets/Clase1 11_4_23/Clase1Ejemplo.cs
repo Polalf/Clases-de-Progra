@@ -8,7 +8,7 @@ public class Clase1Ejemplo : MonoBehaviour
 
     void Start()
     {
-        int Local=0; // Variable Local, solo puede ser llamada dentro de la funcion que se crea
+       // int Local=0; // Variable Local, solo puede ser llamada dentro de la funcion que se crea
     }
 
     // Update is called once per frame
