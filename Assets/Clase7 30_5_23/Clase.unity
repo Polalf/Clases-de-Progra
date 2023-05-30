@@ -2539,10 +2539,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sonidos:
-  - {fileID: 8300000, guid: df59c6e9a48a2f34a84b5b06e5c953ae, type: 3}
-  - {fileID: 8300000, guid: defb6f423492ac749b611303c9595b7c, type: 3}
-  - {fileID: 8300000, guid: d22c9bc716775c244bf97a86f52d3462, type: 3}
-  canSound: 0
+  - {fileID: 8300000, guid: 867b241fe975a8b409a76da2d9ce21c6, type: 3}
+  - {fileID: 8300000, guid: ebd67eecdeff7194a9608bfa19bdd900, type: 3}
+  - {fileID: 8300000, guid: 92ba37238ee8dbe4cb14933a8d50080f, type: 3}
+  canSound: 1
   FxOp: {fileID: 563603693}
 --- !u!1 &1275402337
 GameObject:
