@@ -6,7 +6,7 @@ using UnityEngine;
 public class SOCard : ScriptableObject
 {
     [Header("Texts")]
-    public string name;
+    public string nameCard;
     public string descript;
 
     [Header("Settings")]

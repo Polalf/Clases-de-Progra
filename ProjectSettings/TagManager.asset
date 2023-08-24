@@ -8,6 +8,7 @@ TagManager:
   - Bola
   - Enemy
   - Meta
+  - Interaccion
   layers:
   - Default
   - TransparentFX
