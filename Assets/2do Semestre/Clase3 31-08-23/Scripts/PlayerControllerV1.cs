@@ -5,7 +5,7 @@ using Clase3108;
 
 namespace Clase3108
 {
-    public class PlayerController : MonoBehaviour
+    public class PlayerControllerV1 : MonoBehaviour
     {
         private bool pressed;
         float tapTime;
