@@ -2,7 +2,7 @@ using System.Linq;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-//using Clase2408;
+using Clase2408;
 
 //using inventory = Clase2408.Inventario
 
@@ -31,7 +31,7 @@ namespace Clase2408 {
                     Debug.Log(item.name + count);
                 }
                 
-            }A
+            }
         }
 
         private void OnTriggerEnter2D(Collider2D collision)
