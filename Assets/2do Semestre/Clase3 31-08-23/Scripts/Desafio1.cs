@@ -17,16 +17,20 @@ public class Desafio1 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        mousePos.z = 0;
-        if(Input.GetMouseButtonDown(0))
+        if(positions.Count < 10)
         {
-            positions.Enqueue(mousePos);
-            if (!isMoving)
+            Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            mousePos.z = 0;
+            if (Input.GetMouseButtonDown(0))
             {
-                StartCoroutine(Moverse());
+                positions.Enqueue(mousePos);
+                if (!isMoving)
+                {
+                    StartCoroutine(Moverse());
+                }
             }
         }
+       
     }
 
     private float EaseInOutBack(float t)
