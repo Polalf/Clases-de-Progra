@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 513592855}
   - component: {fileID: 513592860}
   - component: {fileID: 513592859}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Circle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -276,7 +276,7 @@ GameObject:
   - component: {fileID: 878782190}
   - component: {fileID: 878782193}
   - component: {fileID: 878782192}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Triangle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
