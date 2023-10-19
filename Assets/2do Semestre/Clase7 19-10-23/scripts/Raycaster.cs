@@ -1,0 +1,25 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Raycaster : MonoBehaviour
+{
+    [SerializeField] private LayerMask layerMask;
+    private void Update()
+    {
+        if(Input.GetMouseButtonDown(0))
+        {
+            Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            RaycastHit2D hit = Physics2D.Raycast(mousePos,Vector2.zero, 0f, layerMask);
+
+            if (hit)
+            {
+                if (hit.collider.TryGetComponent(out Character character))
+                {
+                    character.GetDamage();
+                }
+
+            }
+        }
+    }
+}
