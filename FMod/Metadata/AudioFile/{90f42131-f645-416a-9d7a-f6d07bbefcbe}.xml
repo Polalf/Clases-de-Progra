@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{90f42131-f645-416a-9d7a-f6d07bbefcbe}">
+		<property name="assetPath">
+			<value>y2mate.com - explosion sfx.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>5.1461224489795923</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{ab4e6523-9d83-4383-bae6-7d4fe3bd2273}</destination>
+		</relationship>
+	</object>
+</objects>

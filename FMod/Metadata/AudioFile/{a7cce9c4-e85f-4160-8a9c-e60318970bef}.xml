@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{a7cce9c4-e85f-4160-8a9c-e60318970bef}">
+		<property name="assetPath">
+			<value>y2mate.com - Gunshot Sound Effect Single Shot.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>2.063673469387755</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{ab4e6523-9d83-4383-bae6-7d4fe3bd2273}</destination>
+		</relationship>
+	</object>
+</objects>
